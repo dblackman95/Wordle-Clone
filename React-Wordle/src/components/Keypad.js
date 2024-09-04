@@ -4,7 +4,8 @@ export default function Keypad({ usedKeys, handleKeyup }) {
     const [letters, setLetters] = useState(null);
 
     useEffect(() => {
-        fetch('http://localhost:3001/letters')
+        const URL = 'http://192.168.1.152:3001/'
+        fetch(URL + 'letters')
             .then(res => res.json())
             .then(json => {
                 setLetters(json);
