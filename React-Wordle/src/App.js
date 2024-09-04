@@ -10,8 +10,12 @@ function App() {
     let URL = '';
     if (navigator.appVersion.indexOf("Win") != -1) {
       URL = 'http://192.168.1.152:3001/';
+      console.log(navigator.appVersion);
+      console.log(URL);
     } else {
       URL = 'https://wordle-clone-04zv.onrender.com:3001/';
+      console.log(navigator.appVersion);
+      console.log(URL);
     }
 
     fetch(URL + 'solutions')
