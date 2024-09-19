@@ -8,10 +8,15 @@ A simple clone of the popular New York Times game [Wordle](https://www.nytimes.c
 - **Responsive Design**: Play on any device with a responsive layout.
 - **Simple and Clean UI**: Easy to use and visually appealing.
 
+## Demo
+Check out the live demo at [demo link](https://wordle-clone-04zv.onrender.com).
+
 ## Technologies
 - **React** - Frontend library for building user interfaces.
 - **CSS** - For styling the application.
-- **JSON Server** - Emulates a RESTful API back-end for handling requests from the client. Source code can be found at [JSON Server](https://github.com/typicode/json-server/tree/v0).
+- **Django** - RESTful API back-end for handling requests from the client. Repository can be found at [Wordle-Clone-API](https://github.com/dblackman95/Wordle-Clone-API).
+  - **Django Rest Framework** - Django framework for configuring and hosting RESTful API endpoints. Django Rest Framework information can be found at [Django Rest Framework](https://github.com/encode/django-rest-framework).
+- **JSON Server** - Can be configured to use JSON Server. Emulates a RESTful API back-end for handling requests from the client. Source code can be found at [JSON Server](https://github.com/typicode/json-server/tree/v0).
 - **Create React App** - Boilerplate setup for React applications.
 
 ## Usage
