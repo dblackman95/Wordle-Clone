@@ -4,7 +4,7 @@ export default function Keypad({ usedKeys, handleKeyup }) {
     const [letters, setLetters] = useState(null);
 
     useEffect(() => {
-        let URL = URL = 'https://wordle-clone-04zv.onrender.com:3001/';
+        let URL = 'https://wordle-clone-api.onrender.com/'
         //let URL = 'http://192.168.1.152:3001/';
         fetch(URL + 'letters')
             .then(res => res.json())

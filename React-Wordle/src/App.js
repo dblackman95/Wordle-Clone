@@ -7,7 +7,7 @@ function App() {
   const [solution, setSolution] = useState(null);
 
   useEffect(() => {
-    let URL = 'https://wordle-clone-04zv.onrender.com:3001/';
+    let URL = 'https://wordle-clone-api.onrender.com/';
     //let URL = 'http://192.168.1.152:3001/';
 
     fetch(URL + 'solutions')
